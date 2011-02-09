@@ -9,13 +9,7 @@ import org.springframework.web.servlet.view.AbstractUrlBasedView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerView;
 
-/**
- * Created by IntelliJ IDEA.
- * User: nigajuan
- * Date: 02/02/11
- * Time: 20:51
- * To change this template use File | Settings | File Templates.
- */
+
 public class GSPPageResolver extends UrlBasedViewResolver {
 
     public GSPPageResolver() {

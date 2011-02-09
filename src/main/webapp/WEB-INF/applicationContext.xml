@@ -42,10 +42,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     </bean>
 
 
-    <bean id="validator"
-          class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
 
-    <!--
-<bean id="groovyPageResourceLoader" name="groovyPageResourceLoader" class="org.springframework.samples.mvc.basic.account.MyGroovyResourceLoader"/>
-    -->
+
 </beans>
