@@ -1,9 +1,9 @@
 <ui:composition template="/composition">
     <ui:define composition="${it}" name="menu">
-        [menu content]
+       <g:render template="/template" model="[testTemplate:foo]"/>
     </ui:define>
 
     <ui:define composition="${it}" name="body">
-        [body content]
+        ${account.name}
     </ui:define>
 </ui:composition>

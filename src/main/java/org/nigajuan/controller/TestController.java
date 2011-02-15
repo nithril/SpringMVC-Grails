@@ -26,7 +26,6 @@ public class TestController {
         Account account = new Account();
         account.setName("John Doe");
 
-
         map.put("foo" , "foo value");
         map.put("account" , account);
 
