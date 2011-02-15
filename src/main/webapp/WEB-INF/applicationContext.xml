@@ -42,7 +42,4 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     </bean>
 
 
-    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean"/>
-
-
 </beans>

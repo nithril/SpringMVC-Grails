@@ -1,3 +1,6 @@
 <grails>
-
+  <resources>
+    <resource>Config</resource>
+    <resource>org.nigajuan.taglib.composition.CompositionTagLib</resource>
+  </resources>
 </grails>

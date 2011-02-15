@@ -33,10 +33,4 @@
         <property name="basename" value="/WEB-INF/messages/messages"/>
         <property name="cacheSeconds" value="0"/>
     </bean>
-
-    <bean class="org.nigajuan.controller.GSPPageResolver">
-        <property name="prefix" value="/"/>
-        <property name="suffix" value=".gsp"/>
-    </bean>
-
 </beans>

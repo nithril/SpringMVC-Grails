@@ -1,4 +1,4 @@
-<div style="border:1px solid red">
+
 <g:set var="myHTML">
   Some re-usable code on: ${new Date()}
 </g:set>
@@ -12,4 +12,3 @@
 ${testTemplate}
 
 ${myHTML}
-</div>

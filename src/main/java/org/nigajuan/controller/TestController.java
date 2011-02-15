@@ -18,9 +18,8 @@ import java.util.concurrent.ConcurrentHashMap;
 @RequestMapping(value="/test")
 public class TestController {
 
-
     @RequestMapping(method=RequestMethod.GET , value = "/1")
-    public ModelAndView getCreateForm(Model model) {
+    public ModelAndView getCreateForm() {
 
         Map map = new HashMap();
 
@@ -28,15 +27,9 @@ public class TestController {
         account.setName("John Doe");
 
 
-        map.put("foo" , "ca marche");
+        map.put("foo" , "foo value");
         map.put("account" , account);
 
-        return new ModelAndView("test" , map);
+        return new ModelAndView("/test" , map);
     }
-
-    @RequestMapping(method=RequestMethod.GET , value = "/2")
-    public String processSubmit(@Valid  Account account, BindingResult results, ModelMap mmap) {
-        return "test";
-    }
-
 }
