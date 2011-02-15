@@ -15,20 +15,19 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Controller
-@RequestMapping(value="/test")
+@RequestMapping(value = "/test")
 public class TestController {
 
-    @RequestMapping(method=RequestMethod.GET , value = "/1")
+    @RequestMapping(method = RequestMethod.GET, value = "/1")
     public ModelAndView getCreateForm() {
-
         Map map = new HashMap();
 
         Account account = new Account();
         account.setName("John Doe");
 
-        map.put("foo" , "foo value");
-        map.put("account" , account);
+        map.put("foo", "foo value");
+        map.put("account", account);
 
-        return new ModelAndView("/test" , map);
+        return new ModelAndView("/test", map);
     }
 }
