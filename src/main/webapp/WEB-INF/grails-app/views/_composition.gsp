@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>toto</title>
+    <title>GSP sample</title>
     <meta name="layout" content="main"/>
 </head>
 <body>
