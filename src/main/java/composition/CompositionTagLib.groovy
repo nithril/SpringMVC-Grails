@@ -1,4 +1,4 @@
-package org.nigajuan.taglib.composition
+package composition
 
 class CompositionTagLib {
     def version = "0.1"

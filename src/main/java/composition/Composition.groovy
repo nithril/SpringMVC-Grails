@@ -1,4 +1,4 @@
-package org.nigajuan.taglib.composition
+package composition
 
 /**
  * Created by IntelliJ IDEA.
